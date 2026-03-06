@@ -1,12 +1,35 @@
-# React + Vite
+D2TrackerFE
+A frontend stat tracker for the HOJ clan, built with React and Vite. This interface features custom animations and rank-based UI components designed for Destiny 2 players.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+IMPORTANT:
+🔗 Connection to Backend
+This frontend is designed to consume data from a dedicated backend service. The app will not display live stats without the backend running.
+Backend Repository: git@github.com:Ali-Abdullahi/d2BEtracker.git
 
-Currently, two official plugins are available:
+Note: Ensure the backend is cloned and running locally (or hosted) before launching this frontend to allow the API to populate the Rankings and Home components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+⚔️ Prerequisites
+Before you start, ensure you have the following installed:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Node.js (Latest LTS version recommended)
+
+npm (Included with Node)
+
+🛠️ Local Setup
+Clone the repository:
+
+Bash
+git clone https://github.com/Ali-Abdullahi/D2TrackerFE.git
+cd D2TrackerFE
+
+
+Install dependencies:
+Bash
+npm install
+
+
+Run the development server:
+Bash
+npm run dev
+Once started, the app will be available at http://localhost:5173.
