@@ -2,7 +2,7 @@ D2TrackerFE:
 
 A frontend stat tracker for the HOJ clan, built with React and Vite. This interface features custom animations and rank-based UI components designed for Destiny 2 players.
 
-***
+.
 
 IMPORTANT:
 
@@ -14,7 +14,7 @@ Backend Repository: git@github.com:Ali-Abdullahi/d2BEtracker.git
 
 Note: Ensure the backend is cloned and running locally (or hosted) before launching this frontend to allow the API to populate the Rankings and Home components.
 
-***
+.
 
 ⚔️ Prerequisites
 
@@ -24,7 +24,7 @@ Node.js (Latest LTS version recommended)
 
 npm (Included with Node)
 
-***
+.
 
 🛠️ Local Setup
 
@@ -34,13 +34,13 @@ git clone https://github.com/Ali-Abdullahi/D2TrackerFE.git
 
 cd D2TrackerFE
 
-***
+.
 
 Install dependencies:
 
 npm install
 
-***
+.
 
 Run the development server:
 
