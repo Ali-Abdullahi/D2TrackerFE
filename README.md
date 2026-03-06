@@ -6,44 +6,44 @@ A frontend stat tracker for the HOJ clan, built with React and Vite. This interf
 
 IMPORTANT:
 
-🔗 Connection to Backend
+    🔗 Connection to Backend
 
-This frontend is designed to consume data from a dedicated backend service. The app will not display live stats without the backend running.
+        This frontend is designed to consume data from a dedicated backend service. The app will not display live stats without the backend running.
 
-Backend Repository: git@github.com:Ali-Abdullahi/d2BEtracker.git
+        Backend Repository: git@github.com:Ali-Abdullahi/d2BEtracker.git
 
-Note: Ensure the backend is cloned and running locally (or hosted) before launching this frontend to allow the API to populate the Rankings and Home components.
+        Note: Ensure the backend is cloned and running locally (or hosted) before launching this frontend to allow the API to populate the Rankings and Home components.
 
 .
 
 ⚔️ Prerequisites
 
-Before you start, ensure you have the following installed:
+    Before you start, ensure you have the following installed:
 
-Node.js (Latest LTS version recommended)
+        Node.js (Latest LTS version recommended)
 
-npm (Included with Node)
+        npm (Included with Node)
 
 .
 
 🛠️ Local Setup
 
-Clone the repository:
+    Clone the repository:
 
-git clone https://github.com/Ali-Abdullahi/D2TrackerFE.git
+        git clone https://github.com/Ali-Abdullahi/D2TrackerFE.git
 
-cd D2TrackerFE
+        cd D2TrackerFE
 
 .
 
 Install dependencies:
 
-npm install
+    npm install
 
 .
 
 Run the development server:
 
-npm run dev
+    npm run dev
 
-Once started, the app will be available at http://localhost:5173.
+    Once started, the app will be available at http://localhost:5173.
