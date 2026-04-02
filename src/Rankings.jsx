@@ -9,7 +9,7 @@ import { useState,useEffect } from "react";
 
 
 export default function Rankings() {
-  const BACKEND_API_BASE_URL = "http://localhost:4001";
+  const BACKEND_API_BASE_URL = import.meta.env.VITE_BACKEND_API_BASE_URL || "http://localhost:4001";
   const [fetchedPlayersData, setFetchedPlayersData] = useState([]);
   const [isLoading, setIsLoading] = useState(true); 
   const [error, setError] = useState(null);
