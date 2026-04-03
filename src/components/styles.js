@@ -31,7 +31,7 @@ import { Box } from '@mui/material';
     backgroundPosition: 'center 51%',
   });
 
-  export const Image = styled('span',)(({theme,txtcolor,textcolorh,textshadow }) => ({
+  export const Image = styled('span')(({theme,txtcolor,textcolorh,textshadow }) => ({
 
     position: 'absolute',
     inset:0,

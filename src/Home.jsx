@@ -13,7 +13,7 @@ export default function Home(){
     <BackgroundAnim
         Bcolor='Black'
         Bgradient=""
-        video="videos/D2HomeAnim.mov"
+        video="/videos/D2HomeAnim.mov"
         width="110vw"
         height="110vh"
     >
@@ -21,7 +21,7 @@ export default function Home(){
 
     <Box sx={{ position: 'absolute', left: '2%', top: '1vh' }}>
     <ButtonBaseDemo
-        image="Images/Homebutton.png"
+        image="/Images/Homebutton.png"
         height={110}
         borderradius={300}
         textcolorh={'#bbdefb'}
@@ -34,7 +34,7 @@ export default function Home(){
 
     <Box sx={{ position: 'absolute', left: '90%', top: '3vh' }}>
     <ButtonBaseDemo
-        image="Images/RankingsButton.png"
+        image="/Images/RankingsButton.png"
         height={40}
         borderradius={1}
         textcolorh={'#ffc400'}

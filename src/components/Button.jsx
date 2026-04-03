@@ -12,7 +12,7 @@ import {
 
 
 
-export default function ButtonBaseDemo({image='Images/defaultbutt.png',title='HOME',txtcolor,textcolorh,textshadow,buttcolor,borderradius,width='clamp(55px, 8vw, 110px)',height,fontsize='2rem',txtY='0',Widthtxtbox='2',override='',state=null}){
+export default function ButtonBaseDemo({image='/Images/defaultbutt.png',title='HOME',txtcolor,textcolorh,textshadow,buttcolor,borderradius,width='clamp(55px, 8vw, 110px)',height,fontsize='2rem',txtY='0',Widthtxtbox='2',override='',state=null}){
 
 return(
     <Box sx={{ display: 'flex', flexWrap: 'wrap', }}>

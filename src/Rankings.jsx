@@ -261,7 +261,7 @@ const slides=[
     <NavBar>
     <Box sx={{ position: 'absolute', left: '2%', top: '1vh' }}>
       <ButtonBaseDemo
-          image="Images/Homebutton.png"
+          image="/Images/Homebutton.png"
           height={110}
           borderradius={300}
           textcolorh={'#bbdefb'}
@@ -273,7 +273,7 @@ const slides=[
     </Box>
     <Box sx={{ position: 'absolute', left: '87%', top: '3vh' }}>
       <ButtonBaseDemo
-          image="Images/Newbuttonborder.png"
+          image="/Images/Newbuttonborder.png"
           height={50}
           width="18vh"
           borderradius={1}

@@ -3,7 +3,7 @@ import {Box} from "@mui/material";
 import RankItem from "./RankItems";
 import {Typography} from "@mui/material";
 
-export default function RankContent({trialsKDA=2.6,trialsP=5,winR=21,winRP=5,ibKDA=1.4,ibR=3,compKDA=1.23,compR=3,ovrKDA=1.16,ovrKDAR=4,ovrKD=1.07,ovrKDR=5,nameBorder="Images/bronzeborder Background Removed.png",nameSize='8rem',nameColor='Black',nameFont='5rem',nameShadow='0 0 5px black, 0 0 10px black',name='AAA',borderWidth='50%',borderHeight='35%',borderLeft='25%',borderTop='20%', nameTop='15%'}){
+export default function RankContent({trialsKDA=2.6,trialsP=5,winR=21,winRP=5,ibKDA=1.4,ibR=3,compKDA=1.23,compR=3,ovrKDA=1.16,ovrKDAR=4,ovrKD=1.07,ovrKDR=5,nameBorder="/Images/bronzeborder Background Removed.png",nameSize='8rem',nameColor='Black',nameFont='5rem',nameShadow='0 0 5px black, 0 0 10px black',name='AAA',borderWidth='50%',borderHeight='35%',borderLeft='25%',borderTop='20%', nameTop='15%'}){
     return(
         <>
         <Box sx={{width:'90%',height:'40%',position:'absolute', display:'flex',justifyContent:'flex-start',flexWrap: 'wrap',flexDirection: 'row', gap:'20px',top:'66%',left:'6%'}} >
